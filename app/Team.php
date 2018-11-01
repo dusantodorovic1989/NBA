@@ -8,7 +8,7 @@ class team extends Model
 {
     protected $guarded = ['id'];
 
-    public function team(){
-        return $this->belongsTo(Team::class);
+    public function players(){
+        return $this->hasMany(Player::class);
     }
 }

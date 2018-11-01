@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<h1>Teams</h1>
+<h1><a href="/">Teams</a> </h1>
    <ul>
        @foreach($teams as $team)
        <li>
@@ -25,3 +25,4 @@
        @endforeach   
        </ul>
 @endsection
+
